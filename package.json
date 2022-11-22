@@ -1,0 +1,23 @@
+{
+  "name": "typescript-embedded-css-plugin",
+  "version": "0.0.1",
+  "description": "TypeScript Language Service Plugin for embedded CSS template strings",
+  "main": "./out",
+  "keywords": [
+    "typescript",
+    "language service",
+    "css"
+  ],
+  "license": "ISC",
+  "scripts": {
+    "compile": "tsc",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "typescript": "4.9.3",
+    "typescript-template-language-service-decorator": "2.3.1",
+    "vscode-css-languageservice": "6.2.1",
+    "vscode-languageserver-types": "3.17.2"
+  }
+}
